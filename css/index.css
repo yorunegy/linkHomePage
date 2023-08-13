@@ -91,6 +91,23 @@ ul {
     padding: 0;
 }
 
+.faq .question {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.faq .q {
+    font-weight: bold;
+}
+
+.faq .a {
+    margin-left: 20px;
+}
+
+.faq .a.hidden {
+    display: none;
+}
+
 
 footer {
     background-color: #ff6f69;
