@@ -91,18 +91,19 @@ ul {
     padding: 0;
 }
 
-.faq .question {
-    cursor: pointer;
+.faq {
+    margin: 20px;
+}
+
+.q {
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
-.faq .q {
-    font-weight: bold;
+.a {
+    margin-bottom: 20px;
 }
 
-.faq .a {
-    margin-left: 20px;
-}
 
 .faq .a.hidden {
     display: none;
