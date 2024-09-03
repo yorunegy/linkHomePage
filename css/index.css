@@ -22,7 +22,6 @@ td {
     text-align: center;
 }
 
-
 header {
     background-color: #ff6f69;
     color: white;
@@ -104,11 +103,9 @@ ul {
     margin-bottom: 20px;
 }
 
-
 .faq .a.hidden {
     display: none;
 }
-
 
 footer {
     background-color: #ff6f69;
@@ -124,4 +121,21 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* 追加: 場所の画像のスタイル */
+.location-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.location-images img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
