@@ -10,18 +10,6 @@ body {
     margin: auto;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 10px 0;
-}
-
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-
 header {
     background-color: #ff6f69;
     color: white;
@@ -44,11 +32,20 @@ main {
     padding: 20px;
 }
 
-.content-image {
-    width: 100%;
-    max-width: 400px;
-    display: block;
-    margin: 10px auto;
+.location-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.location-images img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
 section {
@@ -56,13 +53,20 @@ section {
 }
 
 h2 {
+    font-size: 1.5em;
     border-bottom: 2px solid #ff6f69;
+    padding-bottom: 5px;
     color: #ff6f69;
 }
 
-ul {
-    list-style: none;
-    padding-left: 0;
+.course-schedule {
+    margin-bottom: 20px;
+}
+
+.course-schedule h3 {
+    margin: 10px 0;
+    font-size: 1.3em;
+    color: #333;
 }
 
 .schedule-table {
@@ -90,21 +94,33 @@ ul {
     padding: 0;
 }
 
-.faq {
-    margin: 20px;
-}
-
-.q {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.a {
+.course-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
-.faq .a.hidden {
-    display: none;
+.course-images img {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
 }
 
 footer {
@@ -121,21 +137,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-/* 追加: 場所の画像のスタイル */
-.location-images {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.location-images img {
-    max-width: 150px;
-    height: auto;
-    border: 1px solid #ccc;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
 }
